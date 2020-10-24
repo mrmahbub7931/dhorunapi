@@ -18,27 +18,22 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get('slider','Api\ApiEndController@slider');
 
+Route::get('categories','Api\ApiEndController@categories');
 
-    // Route::post('/login', 'UserController@login');
-    // Route::post('/register','UserController@store');
-    // Route::get('/users','UserController@index')->middleware('auth:api');
-    // Route::get('/logout', 'UserController@logout')->middleware('auth:api');
+Route::get('trending/category','Api\ApiEndController@trendingCategories');
 
+/*registration customer*/
+Route::post('/register', 'Api\ApiEndController@register');
+/*login customer*/
+Route::post('/login', 'Api\ApiEndController@login');
+//logout
+Route::post('/logout','Api\ApiEndController@logout')->middleware('auth:api');
+/*change password*/
+Route::post('change/password','Api\ApiEndController@changePassword')->middleware('auth:api');
 
-// Route::apiResource('/users','UserController');
-
-
-Route::group(['namespace' => 'Products'], function () {
-    Route::apiResource('/products','ProductController');
-    Route::apiResource('/products/{product}/reviews','ReviewController');
-});
-
-Route::group(['namespace' => 'Category'], function () {
-    Route::apiResource('/category','CategoryController');
-});
-
-Route::group(['namespace' => 'Cart'], function () {
-    Route::match(['get','post'],'/cart','CartController@index')->name('cart.index');
-    Route::match(['get','post'],'/add-cart','CartController@store')->name('cart.store');
-});
+/*user data */
+Route::post('user/data','Api\ApiEndController@getData')->middleware('auth:api');
+Route::post('update/image','Api\ApiEndController@updateImage')->middleware('auth:api');
+Route::post('update/user','Api\ApiEndController@updateUser')->middleware('auth:api');

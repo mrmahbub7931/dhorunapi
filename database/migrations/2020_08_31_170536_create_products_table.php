@@ -32,6 +32,7 @@ class CreateProductsTable extends Migration
             $table->string('status');
             $table->string('meta_title')->nullable();
             $table->string('meta_desc')->nullable();
+            $table->boolean('trending')->default(false); //this is for mobile
             $table->timestamps();
         });
     }
