@@ -24,7 +24,7 @@ class ApiEndController extends Controller
     }
 
     public function categories(){
-        $category = Category::with('child')->get();
+        $category = Category::where('parent_id',null)->with('child')->get();
         return CategoryResource::collection($category);
     }
 

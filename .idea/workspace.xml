@@ -20,24 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5282a9fb-5054-4706-a938-0789ecc058d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Resources/CategoryResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Resources/SliderResource.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/cat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/slider.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_31_170536_create_products_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_31_170536_create_products_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_01_142702_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_01_142702_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_01_164706_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_01_164706_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_02_181417_create_category_product_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_02_181417_create_category_product_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ApiEndController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ApiEndController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/dhorunapi/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -81,7 +72,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603545633522</updated>
-      <workItem from="1603545635321" duration="5713000" />
+      <workItem from="1603545635321" duration="6418000" />
+      <workItem from="1603639651179" duration="306000" />
     </task>
     <servers />
   </component>
@@ -98,6 +90,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1380" y="279" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1603546830469">
